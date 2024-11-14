@@ -21,5 +21,10 @@ namespace Quan_ly_ban_quanao
         {
             this.Close();
         }
+
+        private void btn_them_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

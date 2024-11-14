@@ -23,5 +23,12 @@ namespace Quan_ly_ban_quanao
             frm_QLsanpham.MdiParent = this;
             frm_QLsanpham.Show();
         }
+
+        private void quảnLýToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Frm_QlNhacc frm_QlNhacc = new Frm_QlNhacc();
+            frm_QlNhacc.MdiParent = this;
+            frm_QlNhacc.Show();
+        }
     }
 }

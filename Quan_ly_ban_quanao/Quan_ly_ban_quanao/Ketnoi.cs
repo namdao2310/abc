@@ -14,7 +14,7 @@ namespace Quan_ly_ban_quanao
         SqlConnection conn;
         public void openConnect()
         {
-            string ckn = "Data Source=DESKTOP-J6CIU8L;Initial Catalog=Quanlyquanao;Integrated Security=True";
+            string ckn = "LAPTOP-FLBBCUSN\\MSSQLSERVER01;Initial Catalog=Quanlyquanao;Integrated Security=True";
             conn = new SqlConnection(ckn);
             conn.Open();
         }

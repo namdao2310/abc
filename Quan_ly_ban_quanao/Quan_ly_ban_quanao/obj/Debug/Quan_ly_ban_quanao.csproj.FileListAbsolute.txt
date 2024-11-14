@@ -9,3 +9,15 @@ D:\C#\BTL_THLT.NET\Quan_ly_ban_quanao\Quan_ly_ban_quanao\obj\Debug\Quan_ly_ban_q
 D:\C#\BTL_THLT.NET\Quan_ly_ban_quanao\Quan_ly_ban_quanao\obj\Debug\Quan_ly_ban_quanao.exe
 D:\C#\BTL_THLT.NET\Quan_ly_ban_quanao\Quan_ly_ban_quanao\obj\Debug\Quan_ly_ban_quanao.pdb
 D:\C#\BTL_THLT.NET\Quan_ly_ban_quanao\Quan_ly_ban_quanao\obj\Debug\Quan_ly_ban_quanao.Frm_QLsanpham.resources
+D:\visual code\BTL_THLT.NET\Quan_ly_ban_quanao\Quan_ly_ban_quanao\bin\Debug\Quan_ly_ban_quanao.exe.config
+D:\visual code\BTL_THLT.NET\Quan_ly_ban_quanao\Quan_ly_ban_quanao\bin\Debug\Quan_ly_ban_quanao.exe
+D:\visual code\BTL_THLT.NET\Quan_ly_ban_quanao\Quan_ly_ban_quanao\bin\Debug\Quan_ly_ban_quanao.pdb
+D:\visual code\BTL_THLT.NET\Quan_ly_ban_quanao\Quan_ly_ban_quanao\obj\Debug\Quan_ly_ban_quanao.csproj.AssemblyReference.cache
+D:\visual code\BTL_THLT.NET\Quan_ly_ban_quanao\Quan_ly_ban_quanao\obj\Debug\Quan_ly_ban_quanao.Form1.resources
+D:\visual code\BTL_THLT.NET\Quan_ly_ban_quanao\Quan_ly_ban_quanao\obj\Debug\Quan_ly_ban_quanao.Frm_QlNhacc.resources
+D:\visual code\BTL_THLT.NET\Quan_ly_ban_quanao\Quan_ly_ban_quanao\obj\Debug\Quan_ly_ban_quanao.Frm_QLsanpham.resources
+D:\visual code\BTL_THLT.NET\Quan_ly_ban_quanao\Quan_ly_ban_quanao\obj\Debug\Quan_ly_ban_quanao.Properties.Resources.resources
+D:\visual code\BTL_THLT.NET\Quan_ly_ban_quanao\Quan_ly_ban_quanao\obj\Debug\Quan_ly_ban_quanao.csproj.GenerateResource.cache
+D:\visual code\BTL_THLT.NET\Quan_ly_ban_quanao\Quan_ly_ban_quanao\obj\Debug\Quan_ly_ban_quanao.csproj.CoreCompileInputs.cache
+D:\visual code\BTL_THLT.NET\Quan_ly_ban_quanao\Quan_ly_ban_quanao\obj\Debug\Quan_ly_ban_quanao.exe
+D:\visual code\BTL_THLT.NET\Quan_ly_ban_quanao\Quan_ly_ban_quanao\obj\Debug\Quan_ly_ban_quanao.pdb

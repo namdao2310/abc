@@ -52,6 +52,12 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Frm_QlNhacc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_QlNhacc.Designer.cs">
+      <DependentUpon>Frm_QlNhacc.cs</DependentUpon>
+    </Compile>
     <Compile Include="Frm_QLsanpham.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -59,10 +65,14 @@
       <DependentUpon>Frm_QLsanpham.cs</DependentUpon>
     </Compile>
     <Compile Include="Ketnoi.cs" />
+    <Compile Include="NhaCungCap.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_QlNhacc.resx">
+      <DependentUpon>Frm_QlNhacc.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Frm_QLsanpham.resx">
       <DependentUpon>Frm_QLsanpham.cs</DependentUpon>
