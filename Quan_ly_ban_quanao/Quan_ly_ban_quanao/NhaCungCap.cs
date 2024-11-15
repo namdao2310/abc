@@ -22,7 +22,7 @@ namespace Quan_ly_ban_quanao
         }
         public void CreateNhaCungCap(string MaNhaCungCap, string TenNhaCungCap, string DiaChi, string SoDienThoai, string MaSanPham)
         {
-            string sql = "insert into tbNhaCungCap(MaNhaCungCap, TenNhaCungCap, DiaChi, SoDienThoai, MaSanPham) values (@manhacc, @tennhacc, @diachi, @sdt, @masp)";
+            string sql = "insert into NhaCc(MaNhaCungCap, TenNhaCungCap, DiaChi, SoDienThoai, MaSanPham) values (@manhacc, @tennhacc, @diachi, @sdt, @masp)";
             SqlParameter[] sqlParameters = new SqlParameter[]
             {
                 new SqlParameter("@manhacc", MaNhaCungCap),
@@ -31,30 +31,18 @@ namespace Quan_ly_ban_quanao
                 new SqlParameter("@sdt", SoDienThoai),
                 new SqlParameter("@masp", MaSanPham),
             };
-            kn.Create (sql, sqlParameters);
+            kn.IUD(sql, sqlParameters);
         }
-        public void TimKiemNhaCungCap(string MaNhaCungCap)
+        public DataTable TimKiemNhaCungCap(string MaNhaCungCap)
         {
-            string sql = "SELECT * FROM NhaCc where MaNhaCungCap =@manhacc";
+            string sql = "SELECT * FROM NhaCc where MaNhaCungCap Like @manhacc";
             SqlParameter[] sqlParameters = new SqlParameter[]
             {
-                new SqlParameter("@manhacc", MaNhaCungCap),
+                new SqlParameter("@manhacc", "%" + MaNhaCungCap+ "%")
             };
-            kn.Create (sql, sqlParameters);
+            return kn.Loc(sql, sqlParameters);
         }
-        public void SuaNhaCungCap(string MaNhaCungCap, string TenNhaCungCap, string DiaChi, string SoDienThoai, string MaSanPham)
-        {
-            string sql = "insert into tbNhaCungCap(MaNhaCungCap, TenNhaCungCap, DiaChi, SoDienThoai, MaSanPham) values (@manhacc, @tennhacc, @diachi, @sdt, @masp)";
-            SqlParameter[] sqlParameters = new SqlParameter[]
-            {
-                new SqlParameter("@manhacc", MaNhaCungCap),
-                new SqlParameter("@tennhacc", TenNhaCungCap),
-                new SqlParameter("@diachi", DiaChi),
-                new SqlParameter("@sdt", SoDienThoai),
-                new SqlParameter("@masp", MaSanPham),
-            };
-            kn.Create (sql, sqlParameters);
-        }
+        
         public void DeleteNhaCungCap(string MaNhaCungCap)
         {
             string sql = "delete from NhaCc where MaNhaCungCap =@manhacc";
@@ -62,11 +50,11 @@ namespace Quan_ly_ban_quanao
             {
                 new SqlParameter("@manhacc", MaNhaCungCap),
             };
-            kn.Create (sql, sqlParameters);
+            kn.IUD(sql, sqlParameters);
         }
         public void UpdateNhaCungCap(string MaNhaCungCap, string TenNhaCungCap, string DiaChi, string SoDienThoai, string MaSanPham)
         {
-            string sql = "update NhaCc set MaNhaCungCap=@manhacc, TenNhaCungCap=@tennhacc, DiaChi=@diachi, SoDienThoai=@sdt, MaSanPham=@masp";
+            string sql = "update NhaCc set TenNhaCungCap=@tennhacc, DiaChi=@diachi, SoDienThoai=@sdt, MaSanPham=@masp where MaNhaCungCap = @manhacc";
             SqlParameter[] sqlParameters = new SqlParameter[]
             {
                 new SqlParameter("@manhacc", MaNhaCungCap),
@@ -75,8 +63,20 @@ namespace Quan_ly_ban_quanao
                 new SqlParameter("@sdt", SoDienThoai),
                 new SqlParameter("@masp", MaSanPham),
             };
-            kn.Create(sql, sqlParameters);
+            kn.IUD(sql, sqlParameters);
         }
+        public List<string> GetMaSanPham()
+        {
+            string sql = "SELECT MaSanPham FROM SanPham";
+            DataTable dt = kn.readData(sql);
 
+            List<string> listncc = new List<string>();
+            foreach (DataRow row in dt.Rows)
+            {
+                listncc.Add(row["MaSanpHam"].ToString());
+            }
+
+            return listncc;
+        }
     }
 }

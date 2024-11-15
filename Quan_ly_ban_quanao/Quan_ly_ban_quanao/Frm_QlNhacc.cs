@@ -16,6 +16,8 @@ namespace Quan_ly_ban_quanao
         public Frm_QlNhacc()
         {
             InitializeComponent();
+            LoadMaSanPhamIntoComboBox();
+            cb_msp.SelectedIndex = 0;
         }
         void hienthi()
         {
@@ -24,7 +26,7 @@ namespace Quan_ly_ban_quanao
 
         private void button1_Click(object sender, EventArgs e)
         {
-            b.CreateNhaCungCap(txt_manhacc.Text, txt_tennhacc.Text, txt_diachi.Text, txt_sdt.Text, txt_masp.Text);
+            b.CreateNhaCungCap(txt_manhacc.Text, txt_tennhacc.Text, txt_diachi.Text, txt_sdt.Text, cb_msp.Text);
             hienthi();
         }
 
@@ -35,7 +37,7 @@ namespace Quan_ly_ban_quanao
 
         private void button2_Click(object sender, EventArgs e)
         {
-            b.SuaNhaCungCap(txt_manhacc.Text, txt_tennhacc.Text, txt_diachi.Text, txt_sdt.Text, txt_masp.Text);
+            b.UpdateNhaCungCap(txt_manhacc.Text, txt_tennhacc.Text, txt_diachi.Text, txt_sdt.Text,cb_msp.Text);
             hienthi();
         }
 
@@ -53,29 +55,46 @@ namespace Quan_ly_ban_quanao
                 this.Close();
             }
         }
+        private void LoadMaSanPhamIntoComboBox()
+        {
+            try
+            {
+                var nhaCungCapList = b.GetMaSanPham();
+                cb_msp.Items.Clear();
+                cb_msp.Items.Insert(0, "-Chọn-");
+                foreach (string ncc in nhaCungCapList)
+                {
+                    cb_msp.Items.Add(ncc);
+                }
 
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Lỗi khi tải nhà cung cấp vào ComboBox: " + ex.Message);
+            }
+        }
         private void Frm_QlNhacc_Load(object sender, EventArgs e)
         {
-            dataGridView1.DataSource = b.getAllNhaCungCap();
+            hienthi();
         }
 
         private void dataGridView1_CellClick(object sender, DataGridViewCellEventArgs e)
         {
-            if(dataGridView1.Rows.Count > 0)
+            if(dataGridView1.Rows.Count >= 0)
             {
                 DataGridViewRow row = dataGridView1.SelectedRows[0];
                 txt_manhacc.Text = row.Cells[0].Value.ToString();
                 txt_tennhacc.Text = row.Cells[1].Value.ToString();
                 txt_diachi.Text = row.Cells[2].Value.ToString();
                 txt_sdt.Text = row.Cells[3].Value.ToString();
-                txt_masp.Text = row.Cells[4].Value.ToString();
+                cb_msp.Text = row.Cells[4].Value.ToString();
             }
         }
 
         private void button5_Click(object sender, EventArgs e)
         {
-            b.TimKiemNhaCungCap(txt_manhacc.Text);
-            hienthi();
+            dataGridView1.DataSource= b.TimKiemNhaCungCap(txt_manhacc.Text);
+           
         }
 
         private void label4_Click(object sender, EventArgs e)

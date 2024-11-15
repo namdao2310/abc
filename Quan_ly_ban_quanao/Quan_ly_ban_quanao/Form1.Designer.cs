@@ -43,6 +43,7 @@
             // menuStrip1
             // 
             this.menuStrip1.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.menuStrip1.GripMargin = new System.Windows.Forms.Padding(2, 2, 0, 2);
             this.menuStrip1.ImageScalingSize = new System.Drawing.Size(40, 40);
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.quảnLýNhânViênToolStripMenuItem,
@@ -53,12 +54,8 @@
             this.thoátToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-<<<<<<< HEAD
-            this.menuStrip1.Size = new System.Drawing.Size(1588, 48);
-=======
-            this.menuStrip1.Padding = new System.Windows.Forms.Padding(5, 2, 0, 2);
-            this.menuStrip1.Size = new System.Drawing.Size(1191, 48);
->>>>>>> 8be8ae7f7e7fba1c8f0cdcbddd36131b11ef6ff8
+            this.menuStrip1.Padding = new System.Windows.Forms.Padding(7, 2, 0, 2);
+            this.menuStrip1.Size = new System.Drawing.Size(1786, 48);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             this.menuStrip1.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.menuStrip1_ItemClicked);
@@ -67,7 +64,7 @@
             // 
             this.quảnLýNhânViênToolStripMenuItem.Image = global::Quan_ly_ban_quanao.Properties.Resources._1_Photoroom1;
             this.quảnLýNhânViênToolStripMenuItem.Name = "quảnLýNhânViênToolStripMenuItem";
-            this.quảnLýNhânViênToolStripMenuItem.Size = new System.Drawing.Size(226, 44);
+            this.quảnLýNhânViênToolStripMenuItem.Size = new System.Drawing.Size(254, 44);
             this.quảnLýNhânViênToolStripMenuItem.Text = "Quản lý nhân viên";
             // 
             // quảnLýHoáĐơnToolStripMenuItem
@@ -77,26 +74,26 @@
             this.hoáĐơnMuaHàngToolStripMenuItem});
             this.quảnLýHoáĐơnToolStripMenuItem.Image = global::Quan_ly_ban_quanao.Properties.Resources._3_Photoroom;
             this.quảnLýHoáĐơnToolStripMenuItem.Name = "quảnLýHoáĐơnToolStripMenuItem";
-            this.quảnLýHoáĐơnToolStripMenuItem.Size = new System.Drawing.Size(213, 44);
+            this.quảnLýHoáĐơnToolStripMenuItem.Size = new System.Drawing.Size(239, 44);
             this.quảnLýHoáĐơnToolStripMenuItem.Text = "Quản lý hoá đơn";
             // 
             // hoáĐơnBánHàngToolStripMenuItem
             // 
             this.hoáĐơnBánHàngToolStripMenuItem.Name = "hoáĐơnBánHàngToolStripMenuItem";
-            this.hoáĐơnBánHàngToolStripMenuItem.Size = new System.Drawing.Size(270, 30);
+            this.hoáĐơnBánHàngToolStripMenuItem.Size = new System.Drawing.Size(314, 38);
             this.hoáĐơnBánHàngToolStripMenuItem.Text = "Hoá đơn bán hàng";
             // 
             // hoáĐơnMuaHàngToolStripMenuItem
             // 
             this.hoáĐơnMuaHàngToolStripMenuItem.Name = "hoáĐơnMuaHàngToolStripMenuItem";
-            this.hoáĐơnMuaHàngToolStripMenuItem.Size = new System.Drawing.Size(270, 30);
+            this.hoáĐơnMuaHàngToolStripMenuItem.Size = new System.Drawing.Size(314, 38);
             this.hoáĐơnMuaHàngToolStripMenuItem.Text = "Hoá đơn mua hàng";
             // 
             // quảnLýSảnPhẩmToolStripMenuItem
             // 
             this.quảnLýSảnPhẩmToolStripMenuItem.Image = global::Quan_ly_ban_quanao.Properties.Resources.sp;
             this.quảnLýSảnPhẩmToolStripMenuItem.Name = "quảnLýSảnPhẩmToolStripMenuItem";
-            this.quảnLýSảnPhẩmToolStripMenuItem.Size = new System.Drawing.Size(224, 44);
+            this.quảnLýSảnPhẩmToolStripMenuItem.Size = new System.Drawing.Size(254, 44);
             this.quảnLýSảnPhẩmToolStripMenuItem.Text = "Quản lý sản phẩm";
             this.quảnLýSảnPhẩmToolStripMenuItem.Click += new System.EventHandler(this.quảnLýSảnPhẩmToolStripMenuItem_Click);
             // 
@@ -104,7 +101,7 @@
             // 
             this.quảnLýToolStripMenuItem.Image = global::Quan_ly_ban_quanao.Properties.Resources.ncc;
             this.quảnLýToolStripMenuItem.Name = "quảnLýToolStripMenuItem";
-            this.quảnLýToolStripMenuItem.Size = new System.Drawing.Size(258, 44);
+            this.quảnLýToolStripMenuItem.Size = new System.Drawing.Size(292, 44);
             this.quảnLýToolStripMenuItem.Text = "Quản lý nhà cung cấp";
             this.quảnLýToolStripMenuItem.Click += new System.EventHandler(this.quảnLýToolStripMenuItem_Click);
             // 
@@ -112,7 +109,7 @@
             // 
             this.thốngKêBáoCáoToolStripMenuItem.Image = global::Quan_ly_ban_quanao.Properties.Resources.bc;
             this.thốngKêBáoCáoToolStripMenuItem.Name = "thốngKêBáoCáoToolStripMenuItem";
-            this.thốngKêBáoCáoToolStripMenuItem.Size = new System.Drawing.Size(238, 44);
+            this.thốngKêBáoCáoToolStripMenuItem.Size = new System.Drawing.Size(267, 44);
             this.thốngKêBáoCáoToolStripMenuItem.Text = "Thống kê - báo cáo";
             // 
             // thoátToolStripMenuItem
@@ -125,13 +122,9 @@
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-<<<<<<< HEAD
-            this.ClientSize = new System.Drawing.Size(1588, 538);
-=======
-            this.ClientSize = new System.Drawing.Size(1191, 430);
->>>>>>> 8be8ae7f7e7fba1c8f0cdcbddd36131b11ef6ff8
+            this.ClientSize = new System.Drawing.Size(1786, 672);
             this.Controls.Add(this.menuStrip1);
             this.IsMdiContainer = true;
             this.MainMenuStrip = this.menuStrip1;
