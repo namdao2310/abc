@@ -52,6 +52,12 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Frm_Hoadon_BH.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_Hoadon_BH.Designer.cs">
+      <DependentUpon>Frm_Hoadon_BH.cs</DependentUpon>
+    </Compile>
     <Compile Include="Frm_QlNhacc.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -77,6 +83,9 @@
     <Compile Include="Sanpham.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_Hoadon_BH.resx">
+      <DependentUpon>Frm_Hoadon_BH.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Frm_QlNhacc.resx">
       <DependentUpon>Frm_QlNhacc.cs</DependentUpon>
