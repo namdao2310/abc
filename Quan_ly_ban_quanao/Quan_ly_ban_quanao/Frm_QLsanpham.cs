@@ -37,6 +37,7 @@ namespace Quan_ly_ban_quanao
         {
             this.Close();
         }
+<<<<<<< HEAD
         public void Hienthi()
         {
             dt_sp.DataSource = sp.getAllSP();
@@ -246,6 +247,12 @@ namespace Quan_ly_ban_quanao
             {
                 MessageBox.Show("Mã sản phẩm không được để trống", "Thông báo", MessageBoxButtons.OK);
             }
+=======
+
+        private void btn_them_Click(object sender, EventArgs e)
+        {
+
+>>>>>>> 8be8ae7f7e7fba1c8f0cdcbddd36131b11ef6ff8
         }
     }
 }
