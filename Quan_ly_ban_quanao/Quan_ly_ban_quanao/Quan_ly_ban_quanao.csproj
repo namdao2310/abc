@@ -58,14 +58,24 @@
     <Compile Include="Frm_QLsanpham.Designer.cs">
       <DependentUpon>Frm_QLsanpham.cs</DependentUpon>
     </Compile>
+    <Compile Include="frm_ThemSP.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_ThemSP.Designer.cs">
+      <DependentUpon>frm_ThemSP.cs</DependentUpon>
+    </Compile>
     <Compile Include="Ketnoi.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Sanpham.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Frm_QLsanpham.resx">
       <DependentUpon>Frm_QLsanpham.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_ThemSP.resx">
+      <DependentUpon>frm_ThemSP.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -110,6 +120,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\bc.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\7-Photoroom.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

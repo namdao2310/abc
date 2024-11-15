@@ -9,3 +9,4 @@ D:\C#\BTL_THLT.NET\Quan_ly_ban_quanao\Quan_ly_ban_quanao\obj\Debug\Quan_ly_ban_q
 D:\C#\BTL_THLT.NET\Quan_ly_ban_quanao\Quan_ly_ban_quanao\obj\Debug\Quan_ly_ban_quanao.exe
 D:\C#\BTL_THLT.NET\Quan_ly_ban_quanao\Quan_ly_ban_quanao\obj\Debug\Quan_ly_ban_quanao.pdb
 D:\C#\BTL_THLT.NET\Quan_ly_ban_quanao\Quan_ly_ban_quanao\obj\Debug\Quan_ly_ban_quanao.Frm_QLsanpham.resources
+D:\C#\BTL_THLT.NET\Quan_ly_ban_quanao\Quan_ly_ban_quanao\obj\Debug\Quan_ly_ban_quanao.frm_ThemSP.resources

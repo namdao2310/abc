@@ -3,20 +3,32 @@
   "WorkspaceRootPath": "D:\\C#\\BTL_THLT.NET\\Quan_ly_ban_quanao\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0B5387CF-0FF5-40F6-9A7A-E3AD580C07F6}|Quan_ly_ban_quanao\\Quan_ly_ban_quanao.csproj|d:\\c#\\btl_thlt.net\\quan_ly_ban_quanao\\quan_ly_ban_quanao\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0B5387CF-0FF5-40F6-9A7A-E3AD580C07F6}|Quan_ly_ban_quanao\\Quan_ly_ban_quanao.csproj|solutionrelative:quan_ly_ban_quanao\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0B5387CF-0FF5-40F6-9A7A-E3AD580C07F6}|Quan_ly_ban_quanao\\Quan_ly_ban_quanao.csproj|D:\\C#\\BTL_THLT.NET\\Quan_ly_ban_quanao\\quan_ly_ban_quanao\\sanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B5387CF-0FF5-40F6-9A7A-E3AD580C07F6}|Quan_ly_ban_quanao\\Quan_ly_ban_quanao.csproj|solutionrelative:quan_ly_ban_quanao\\sanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0B5387CF-0FF5-40F6-9A7A-E3AD580C07F6}|Quan_ly_ban_quanao\\Quan_ly_ban_quanao.csproj|d:\\c#\\btl_thlt.net\\quan_ly_ban_quanao\\quan_ly_ban_quanao\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{0B5387CF-0FF5-40F6-9A7A-E3AD580C07F6}|Quan_ly_ban_quanao\\Quan_ly_ban_quanao.csproj|solutionrelative:quan_ly_ban_quanao\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{0B5387CF-0FF5-40F6-9A7A-E3AD580C07F6}|Quan_ly_ban_quanao\\Quan_ly_ban_quanao.csproj|D:\\C#\\BTL_THLT.NET\\Quan_ly_ban_quanao\\quan_ly_ban_quanao\\ketnoi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B5387CF-0FF5-40F6-9A7A-E3AD580C07F6}|Quan_ly_ban_quanao\\Quan_ly_ban_quanao.csproj|solutionrelative:quan_ly_ban_quanao\\ketnoi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0B5387CF-0FF5-40F6-9A7A-E3AD580C07F6}|Quan_ly_ban_quanao\\Quan_ly_ban_quanao.csproj|d:\\c#\\btl_thlt.net\\quan_ly_ban_quanao\\quan_ly_ban_quanao\\frm_qlsanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{0B5387CF-0FF5-40F6-9A7A-E3AD580C07F6}|Quan_ly_ban_quanao\\Quan_ly_ban_quanao.csproj|solutionrelative:quan_ly_ban_quanao\\frm_qlsanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{0B5387CF-0FF5-40F6-9A7A-E3AD580C07F6}|Quan_ly_ban_quanao\\Quan_ly_ban_quanao.csproj|D:\\C#\\BTL_THLT.NET\\Quan_ly_ban_quanao\\quan_ly_ban_quanao\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B5387CF-0FF5-40F6-9A7A-E3AD580C07F6}|Quan_ly_ban_quanao\\Quan_ly_ban_quanao.csproj|solutionrelative:quan_ly_ban_quanao\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B5387CF-0FF5-40F6-9A7A-E3AD580C07F6}|Quan_ly_ban_quanao\\Quan_ly_ban_quanao.csproj|D:\\C#\\BTL_THLT.NET\\Quan_ly_ban_quanao\\quan_ly_ban_quanao\\frm_themsp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0B5387CF-0FF5-40F6-9A7A-E3AD580C07F6}|Quan_ly_ban_quanao\\Quan_ly_ban_quanao.csproj|solutionrelative:quan_ly_ban_quanao\\frm_themsp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0B5387CF-0FF5-40F6-9A7A-E3AD580C07F6}|Quan_ly_ban_quanao\\Quan_ly_ban_quanao.csproj|d:\\c#\\btl_thlt.net\\quan_ly_ban_quanao\\quan_ly_ban_quanao\\frm_qlsanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0B5387CF-0FF5-40F6-9A7A-E3AD580C07F6}|Quan_ly_ban_quanao\\Quan_ly_ban_quanao.csproj|solutionrelative:quan_ly_ban_quanao\\frm_qlsanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B5387CF-0FF5-40F6-9A7A-E3AD580C07F6}|Quan_ly_ban_quanao\\Quan_ly_ban_quanao.csproj|D:\\C#\\BTL_THLT.NET\\Quan_ly_ban_quanao\\quan_ly_ban_quanao\\frm_themsp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B5387CF-0FF5-40F6-9A7A-E3AD580C07F6}|Quan_ly_ban_quanao\\Quan_ly_ban_quanao.csproj|solutionrelative:quan_ly_ban_quanao\\frm_themsp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B5387CF-0FF5-40F6-9A7A-E3AD580C07F6}|Quan_ly_ban_quanao\\Quan_ly_ban_quanao.csproj|D:\\C#\\BTL_THLT.NET\\Quan_ly_ban_quanao\\quan_ly_ban_quanao\\frm_qlsanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0B5387CF-0FF5-40F6-9A7A-E3AD580C07F6}|Quan_ly_ban_quanao\\Quan_ly_ban_quanao.csproj|solutionrelative:quan_ly_ban_quanao\\frm_qlsanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -39,51 +51,90 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "D:\\C#\\BTL_THLT.NET\\Quan_ly_ban_quanao\\Quan_ly_ban_quanao\\Form1.cs",
-              "RelativeDocumentMoniker": "Quan_ly_ban_quanao\\Form1.cs",
-              "ToolTip": "D:\\C#\\BTL_THLT.NET\\Quan_ly_ban_quanao\\Quan_ly_ban_quanao\\Form1.cs*",
-              "RelativeToolTip": "Quan_ly_ban_quanao\\Form1.cs*",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAmwBcAAAAhAAAAAAAAAA==",
+              "Title": "Sanpham.cs",
+              "DocumentMoniker": "D:\\C#\\BTL_THLT.NET\\Quan_ly_ban_quanao\\Quan_ly_ban_quanao\\Sanpham.cs",
+              "RelativeDocumentMoniker": "Quan_ly_ban_quanao\\Sanpham.cs",
+              "ToolTip": "D:\\C#\\BTL_THLT.NET\\Quan_ly_ban_quanao\\Quan_ly_ban_quanao\\Sanpham.cs",
+              "RelativeToolTip": "Quan_ly_ban_quanao\\Sanpham.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHEAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T01:48:56.579Z",
+              "WhenOpened": "2024-11-13T02:23:59.957Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
+              "Title": "Ketnoi.cs",
+              "DocumentMoniker": "D:\\C#\\BTL_THLT.NET\\Quan_ly_ban_quanao\\Quan_ly_ban_quanao\\Ketnoi.cs",
+              "RelativeDocumentMoniker": "Quan_ly_ban_quanao\\Ketnoi.cs",
+              "ToolTip": "D:\\C#\\BTL_THLT.NET\\Quan_ly_ban_quanao\\Quan_ly_ban_quanao\\Ketnoi.cs",
+              "RelativeToolTip": "Quan_ly_ban_quanao\\Ketnoi.cs",
+              "ViewState": "AgIAAGwAAAAAAAAAAAAwwG8AAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T19:46:29.407Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Frm_QLsanpham.cs",
               "DocumentMoniker": "D:\\C#\\BTL_THLT.NET\\Quan_ly_ban_quanao\\Quan_ly_ban_quanao\\Frm_QLsanpham.cs",
               "RelativeDocumentMoniker": "Quan_ly_ban_quanao\\Frm_QLsanpham.cs",
               "ToolTip": "D:\\C#\\BTL_THLT.NET\\Quan_ly_ban_quanao\\Quan_ly_ban_quanao\\Frm_QLsanpham.cs",
               "RelativeToolTip": "Quan_ly_ban_quanao\\Frm_QLsanpham.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAmwBUAAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAAO8AAAAAAAAAAAAYwAMBAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T01:47:47.101Z",
+              "WhenOpened": "2024-11-15T01:46:39.16Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "Frm_QLsanpham.cs [Design]",
               "DocumentMoniker": "D:\\C#\\BTL_THLT.NET\\Quan_ly_ban_quanao\\Quan_ly_ban_quanao\\Frm_QLsanpham.cs",
               "RelativeDocumentMoniker": "Quan_ly_ban_quanao\\Frm_QLsanpham.cs",
               "ToolTip": "D:\\C#\\BTL_THLT.NET\\Quan_ly_ban_quanao\\Quan_ly_ban_quanao\\Frm_QLsanpham.cs [Design]",
               "RelativeToolTip": "Quan_ly_ban_quanao\\Frm_QLsanpham.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T01:23:20.165Z",
+              "WhenOpened": "2024-11-15T01:46:37.272Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "D:\\C#\\BTL_THLT.NET\\Quan_ly_ban_quanao\\Quan_ly_ban_quanao\\Form1.cs",
-              "RelativeDocumentMoniker": "Quan_ly_ban_quanao\\Form1.cs",
-              "ToolTip": "D:\\C#\\BTL_THLT.NET\\Quan_ly_ban_quanao\\Quan_ly_ban_quanao\\Form1.cs [Design]*",
-              "RelativeToolTip": "Quan_ly_ban_quanao\\Form1.cs [Design]*",
+              "DocumentIndex": 5,
+              "Title": "frm_ThemSP.cs",
+              "DocumentMoniker": "D:\\C#\\BTL_THLT.NET\\Quan_ly_ban_quanao\\Quan_ly_ban_quanao\\frm_ThemSP.cs",
+              "RelativeDocumentMoniker": "Quan_ly_ban_quanao\\frm_ThemSP.cs",
+              "ToolTip": "D:\\C#\\BTL_THLT.NET\\Quan_ly_ban_quanao\\Quan_ly_ban_quanao\\frm_ThemSP.cs",
+              "RelativeToolTip": "Quan_ly_ban_quanao\\frm_ThemSP.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAQwCkAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-20T01:52:46.384Z",
+              "WhenOpened": "2024-11-14T18:38:52.092Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\C#\\BTL_THLT.NET\\Quan_ly_ban_quanao\\Quan_ly_ban_quanao\\Program.cs",
+              "RelativeDocumentMoniker": "Quan_ly_ban_quanao\\Program.cs",
+              "ToolTip": "D:\\C#\\BTL_THLT.NET\\Quan_ly_ban_quanao\\Quan_ly_ban_quanao\\Program.cs",
+              "RelativeToolTip": "Quan_ly_ban_quanao\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T20:00:39.031Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "frm_ThemSP.cs [Design]",
+              "DocumentMoniker": "D:\\C#\\BTL_THLT.NET\\Quan_ly_ban_quanao\\Quan_ly_ban_quanao\\frm_ThemSP.cs",
+              "RelativeDocumentMoniker": "Quan_ly_ban_quanao\\frm_ThemSP.cs",
+              "ToolTip": "D:\\C#\\BTL_THLT.NET\\Quan_ly_ban_quanao\\Quan_ly_ban_quanao\\frm_ThemSP.cs [Design]",
+              "RelativeToolTip": "Quan_ly_ban_quanao\\frm_ThemSP.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T02:11:02.439Z",
               "EditorCaption": " [Design]"
             }
           ]

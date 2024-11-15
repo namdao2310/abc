@@ -69,5 +69,65 @@ namespace Quan_ly_ban_quanao
                 closeConnect();
             }
         }
+
+        public bool Kttontai(string sql, SqlParameter[] parameters)
+        {
+            openConnect();
+            bool kt = false;
+            try
+            {
+                using (SqlCommand cmd = new SqlCommand(sql, conn))
+                {
+                    if (parameters != null)
+                    {
+                        cmd.Parameters.AddRange(parameters);
+                    }
+                    using (SqlDataReader rd = cmd.ExecuteReader())
+                    {
+                        kt = rd.HasRows;
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+            finally
+            {
+                closeConnect();
+            }
+            return kt;
+        }
+        public DataTable Loc(string sql, SqlParameter[] parameters)
+        {
+            DataTable dt = new DataTable();
+            try
+            {
+                openConnect(); 
+                using (SqlCommand cmd = new SqlCommand(sql, conn))
+                {
+                    if (parameters != null)
+                    {
+                        cmd.Parameters.AddRange(parameters);
+                    }
+
+                    using (SqlDataReader rd = cmd.ExecuteReader()) 
+                    {
+                        dt.Load(rd); 
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Lỗi: " + ex.Message);  
+            }
+            finally
+            {
+                closeConnect();  
+            }
+
+            return dt;
+        }
+        
     }
 }
