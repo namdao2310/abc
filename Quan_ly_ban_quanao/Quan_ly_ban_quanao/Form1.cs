@@ -45,6 +45,18 @@ namespace Quan_ly_ban_quanao
 
         }
 
-        
+        private void hoáĐơnBánHàngToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Frm_Hoadon_BH frm_Hoadon_BH = new Frm_Hoadon_BH();
+            frm_Hoadon_BH.MdiParent = this;
+            frm_Hoadon_BH.Show();
+        }
+
+        private void hoáĐơnMuaHàngToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            HoaDon_Nhap hoaDon_Nhap = new HoaDon_Nhap();
+            hoaDon_Nhap.MdiParent = this;
+            hoaDon_Nhap.Show();
+        }
     }
 }

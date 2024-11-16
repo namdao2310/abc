@@ -76,6 +76,14 @@
     <Compile Include="frm_ThemSP.Designer.cs">
       <DependentUpon>frm_ThemSP.cs</DependentUpon>
     </Compile>
+    <Compile Include="HoaDon.cs" />
+    <Compile Include="HoaDonBH.cs" />
+    <Compile Include="HoaDon_Nhap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HoaDon_Nhap.Designer.cs">
+      <DependentUpon>HoaDon_Nhap.cs</DependentUpon>
+    </Compile>
     <Compile Include="Ketnoi.cs" />
     <Compile Include="NhaCungCap.cs" />
     <Compile Include="Program.cs" />
@@ -95,6 +103,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frm_ThemSP.resx">
       <DependentUpon>frm_ThemSP.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HoaDon_Nhap.resx">
+      <DependentUpon>HoaDon_Nhap.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

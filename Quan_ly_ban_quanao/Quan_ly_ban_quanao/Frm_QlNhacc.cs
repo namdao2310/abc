@@ -23,11 +23,59 @@ namespace Quan_ly_ban_quanao
         {
             dataGridView1.DataSource = b.getAllNhaCungCap();
         }
+        private bool ValidateInput()
+        {
+            if (string.IsNullOrWhiteSpace(txt_manhacc.Text))
+            {
+                MessageBox.Show("Vui lòng nhập Mã nhà cung cấp.", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                txt_manhacc.Focus();
+                return false;
+            }
+            if (string.IsNullOrWhiteSpace(txt_tennhacc.Text))
+            {
+                MessageBox.Show("Vui lòng nhập Tên nhà cung cấp.", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                txt_tennhacc.Focus();
+                return false;
+            }
+            if (string.IsNullOrWhiteSpace(txt_diachi.Text))
+            {
+                MessageBox.Show("Vui lòng nhập Địa chỉ.", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                txt_diachi.Focus();
+                return false;
+            }
+            if (string.IsNullOrWhiteSpace(txt_sdt.Text))
+            {
+                MessageBox.Show("Vui lòng nhập Số điện thoại.", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                txt_sdt.Focus();
+                return false;
+            }
+            if (cb_msp.SelectedIndex == 0) 
+            {
+                MessageBox.Show("Vui lòng chọn Mã sản phẩm.", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                cb_msp.Focus();
+                return false;
+            }
+            return true;
+        }
+        private bool ValidateSearchInput()
+        {
+            if (string.IsNullOrWhiteSpace(txt_manhacc.Text) && string.IsNullOrWhiteSpace(txt_tennhacc.Text))
+            {
+                MessageBox.Show("Vui lòng nhập ít nhất Mã nhà cung cấp hoặc Tên nhà cung cấp để tìm kiếm.", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                txt_manhacc.Focus();
+                return false;
+            }
+            return true;
+        }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            b.CreateNhaCungCap(txt_manhacc.Text, txt_tennhacc.Text, txt_diachi.Text, txt_sdt.Text, cb_msp.Text);
-            hienthi();
+            if (ValidateInput())
+            {
+                b.CreateNhaCungCap(txt_manhacc.Text, txt_tennhacc.Text, txt_diachi.Text, txt_sdt.Text, cb_msp.Text);
+                hienthi();
+            }
+            
         }
 
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
@@ -37,8 +85,11 @@ namespace Quan_ly_ban_quanao
 
         private void button2_Click(object sender, EventArgs e)
         {
-            b.UpdateNhaCungCap(txt_manhacc.Text, txt_tennhacc.Text, txt_diachi.Text, txt_sdt.Text,cb_msp.Text);
-            hienthi();
+            if (ValidateInput())
+            {
+                b.UpdateNhaCungCap(txt_manhacc.Text, txt_tennhacc.Text, txt_diachi.Text, txt_sdt.Text, cb_msp.Text);
+                hienthi();
+            }
         }
 
         private void button3_Click(object sender, EventArgs e)
@@ -93,11 +144,19 @@ namespace Quan_ly_ban_quanao
 
         private void button5_Click(object sender, EventArgs e)
         {
-            dataGridView1.DataSource= b.TimKiemNhaCungCap(txt_manhacc.Text);
+            if (ValidateSearchInput())
+            {
+                dataGridView1.DataSource = b.TimKiemNhaCungCap(txt_manhacc.Text);
+            }
            
         }
 
         private void label4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txt_manhacc_TextChanged(object sender, EventArgs e)
         {
 
         }

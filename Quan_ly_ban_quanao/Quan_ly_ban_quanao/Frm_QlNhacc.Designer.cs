@@ -39,19 +39,19 @@
             this.txt_diachi = new System.Windows.Forms.TextBox();
             this.txt_sdt = new System.Windows.Forms.TextBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.cb_msp = new System.Windows.Forms.ComboBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
             this.MaNhaCungCap = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.TenNhaCungCap = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.DiaChi = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.SoDienThoai = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.MaSanPham = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.cb_msp = new System.Windows.Forms.ComboBox();
+            this.button1 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
+            this.button4 = new System.Windows.Forms.Button();
+            this.button5 = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
@@ -120,6 +120,7 @@
             this.txt_manhacc.Name = "txt_manhacc";
             this.txt_manhacc.Size = new System.Drawing.Size(216, 26);
             this.txt_manhacc.TabIndex = 6;
+            this.txt_manhacc.TextChanged += new System.EventHandler(this.txt_manhacc_TextChanged);
             // 
             // txt_tennhacc
             // 
@@ -166,6 +167,15 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Thông tin:";
             // 
+            // cb_msp
+            // 
+            this.cb_msp.FormattingEnabled = true;
+            this.cb_msp.Location = new System.Drawing.Point(610, 124);
+            this.cb_msp.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.cb_msp.Name = "cb_msp";
+            this.cb_msp.Size = new System.Drawing.Size(216, 28);
+            this.cb_msp.TabIndex = 10;
+            // 
             // groupBox2
             // 
             this.groupBox2.Controls.Add(this.dataGridView1);
@@ -197,6 +207,46 @@
             this.dataGridView1.TabIndex = 0;
             this.dataGridView1.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellClick);
             this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
+            // 
+            // MaNhaCungCap
+            // 
+            this.MaNhaCungCap.DataPropertyName = "MaNhaCungCap";
+            this.MaNhaCungCap.HeaderText = "Mã nhà cung cấp";
+            this.MaNhaCungCap.MinimumWidth = 6;
+            this.MaNhaCungCap.Name = "MaNhaCungCap";
+            this.MaNhaCungCap.Width = 125;
+            // 
+            // TenNhaCungCap
+            // 
+            this.TenNhaCungCap.DataPropertyName = "TenNhaCungCap";
+            this.TenNhaCungCap.HeaderText = "Tên nhà cung cấp";
+            this.TenNhaCungCap.MinimumWidth = 6;
+            this.TenNhaCungCap.Name = "TenNhaCungCap";
+            this.TenNhaCungCap.Width = 125;
+            // 
+            // DiaChi
+            // 
+            this.DiaChi.DataPropertyName = "DiaChi";
+            this.DiaChi.HeaderText = "Địa chỉ";
+            this.DiaChi.MinimumWidth = 6;
+            this.DiaChi.Name = "DiaChi";
+            this.DiaChi.Width = 125;
+            // 
+            // SoDienThoai
+            // 
+            this.SoDienThoai.DataPropertyName = "SoDienThoai";
+            this.SoDienThoai.HeaderText = "Số điện thoại";
+            this.SoDienThoai.MinimumWidth = 6;
+            this.SoDienThoai.Name = "SoDienThoai";
+            this.SoDienThoai.Width = 125;
+            // 
+            // MaSanPham
+            // 
+            this.MaSanPham.DataPropertyName = "MaSanPham";
+            this.MaSanPham.HeaderText = "Mã sản phẩm";
+            this.MaSanPham.MinimumWidth = 6;
+            this.MaSanPham.Name = "MaSanPham";
+            this.MaSanPham.Width = 125;
             // 
             // button1
             // 
@@ -253,54 +303,6 @@
             this.button5.UseVisualStyleBackColor = true;
             this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
-            // MaNhaCungCap
-            // 
-            this.MaNhaCungCap.DataPropertyName = "MaNhaCungCap";
-            this.MaNhaCungCap.HeaderText = "Mã nhà cung cấp";
-            this.MaNhaCungCap.MinimumWidth = 6;
-            this.MaNhaCungCap.Name = "MaNhaCungCap";
-            this.MaNhaCungCap.Width = 125;
-            // 
-            // TenNhaCungCap
-            // 
-            this.TenNhaCungCap.DataPropertyName = "TenNhaCungCap";
-            this.TenNhaCungCap.HeaderText = "Tên nhà cung cấp";
-            this.TenNhaCungCap.MinimumWidth = 6;
-            this.TenNhaCungCap.Name = "TenNhaCungCap";
-            this.TenNhaCungCap.Width = 125;
-            // 
-            // DiaChi
-            // 
-            this.DiaChi.DataPropertyName = "DiaChi";
-            this.DiaChi.HeaderText = "Địa chỉ";
-            this.DiaChi.MinimumWidth = 6;
-            this.DiaChi.Name = "DiaChi";
-            this.DiaChi.Width = 125;
-            // 
-            // SoDienThoai
-            // 
-            this.SoDienThoai.DataPropertyName = "SoDienThoai";
-            this.SoDienThoai.HeaderText = "Số điện thoại";
-            this.SoDienThoai.MinimumWidth = 6;
-            this.SoDienThoai.Name = "SoDienThoai";
-            this.SoDienThoai.Width = 125;
-            // 
-            // MaSanPham
-            // 
-            this.MaSanPham.DataPropertyName = "MaSanPham";
-            this.MaSanPham.HeaderText = "Mã sản phẩm";
-            this.MaSanPham.MinimumWidth = 6;
-            this.MaSanPham.Name = "MaSanPham";
-            this.MaSanPham.Width = 125;
-            // 
-            // cb_msp
-            // 
-            this.cb_msp.FormattingEnabled = true;
-            this.cb_msp.Location = new System.Drawing.Point(610, 124);
-            this.cb_msp.Name = "cb_msp";
-            this.cb_msp.Size = new System.Drawing.Size(216, 28);
-            this.cb_msp.TabIndex = 10;
-            // 
             // Frm_QlNhacc
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
@@ -316,6 +318,7 @@
             this.Controls.Add(this.button2);
             this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "Frm_QlNhacc";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "  ";
             this.Load += new System.EventHandler(this.Frm_QlNhacc_Load);
             this.groupBox1.ResumeLayout(false);

@@ -26,3 +26,5 @@ D:\visual code\BTL_THLT.NET\Quan_ly_ban_quanao\Quan_ly_ban_quanao\obj\Debug\Quan
 D:\visual code\BTL_THLT.NET\Quan_ly_ban_quanao\Quan_ly_ban_quanao\obj\Debug\Quan_ly_ban_quanao.pdb
 >>>>>>> 8be8ae7f7e7fba1c8f0cdcbddd36131b11ef6ff8
 D:\C#\BTL_THLT.NET\Quan_ly_ban_quanao\Quan_ly_ban_quanao\obj\Debug\Quan_ly_ban_quanao.Frm_QlNhacc.resources
+D:\visual code\BTL_THLT.NET\Quan_ly_ban_quanao\Quan_ly_ban_quanao\obj\Debug\Quan_ly_ban_quanao.frm_ThemSP.resources
+D:\C#\BTL_THLT.NET\Quan_ly_ban_quanao\Quan_ly_ban_quanao\obj\Debug\Quan_ly_ban_quanao.Frm_Hoadon_BH.resources
