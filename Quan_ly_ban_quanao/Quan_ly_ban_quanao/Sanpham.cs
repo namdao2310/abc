@@ -26,7 +26,7 @@ namespace Quan_ly_ban_quanao
         public void Insert(string ma, string ten, float gia, string ncc, int sl, string mua, byte[] anh)
         {
             string sql = "INSERT INTO SanPham (MaSanPham, TenSanPham, DonGia, MaNhaCungCap, SoLuong, Mua, Anh) " +
-                  "VALUES (@ma, @ten, @dg, @ncc, @sl, @mua, @anh)";
+                         "VALUES (@ma, @ten, @dg, @ncc, @sl, @mua, @anh)";
 
             SqlParameter[] parameters = new SqlParameter[]
             {
@@ -36,12 +36,15 @@ namespace Quan_ly_ban_quanao
                 new SqlParameter("@ncc", ncc),
                 new SqlParameter("@sl", sl),
                 new SqlParameter("@mua", mua),
-                new SqlParameter("@anh", anh ?? (object)DBNull.Value) // Truyền ảnh dạng byte[] hoặc NULL nếu không có ảnh
+                new SqlParameter("@anh", SqlDbType.VarBinary)
+                {
+                    Value = anh ?? (object)DBNull.Value
+                }
             };
 
             kn.IUD(sql, parameters);
         }
-        public void Delete(string ma)
+            public void Delete(string ma)
         {
             string sql = "Delete from SanPham where MaSanPham  = @ma";
             SqlParameter[] parameters = new SqlParameter[]
@@ -77,17 +80,7 @@ namespace Quan_ly_ban_quanao
 
             return listncc;
         }
-        public string GetImagePath(string maSanPham)
-        {
-            string imagePath = string.Empty;
-            string sql = $"SELECT Anh FROM SanPham WHERE MaSanPham = '{maSanPham}'";
-            DataTable dt = kn.readData(sql);
-            if (dt.Rows.Count > 0)
-            {
-                imagePath = dt.Rows[0]["Anh"].ToString();
-            }
-            return imagePath;
-        }
+        
         public bool Kt(string ma)
         {
             string sql = "select * from SanPham where MaSanPham = @ma";

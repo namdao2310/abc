@@ -213,6 +213,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pic_sp2);
             this.Name = "frm_ThemSP";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "frm_ThemSP";
             ((System.ComponentModel.ISupportInitialize)(this.pic_sp2)).EndInit();
             this.ResumeLayout(false);

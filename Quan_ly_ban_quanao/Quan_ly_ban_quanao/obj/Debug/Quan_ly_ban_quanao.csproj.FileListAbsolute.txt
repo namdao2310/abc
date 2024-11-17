@@ -28,3 +28,6 @@ D:\visual code\BTL_THLT.NET\Quan_ly_ban_quanao\Quan_ly_ban_quanao\obj\Debug\Quan
 D:\C#\BTL_THLT.NET\Quan_ly_ban_quanao\Quan_ly_ban_quanao\obj\Debug\Quan_ly_ban_quanao.Frm_QlNhacc.resources
 D:\visual code\BTL_THLT.NET\Quan_ly_ban_quanao\Quan_ly_ban_quanao\obj\Debug\Quan_ly_ban_quanao.frm_ThemSP.resources
 D:\C#\BTL_THLT.NET\Quan_ly_ban_quanao\Quan_ly_ban_quanao\obj\Debug\Quan_ly_ban_quanao.Frm_Hoadon_BH.resources
+D:\C#\BTL_THLT.NET\Quan_ly_ban_quanao\Quan_ly_ban_quanao\obj\Debug\Quan_ly_ban_quanao.HoaDon_Nhap.resources
+D:\C#\BTL_THLT.NET\Quan_ly_ban_quanao\Quan_ly_ban_quanao\obj\Debug\Quan_ly_ban_quanao.Frm_NhanVien.resources
+D:\C#\BTL_THLT.NET\Quan_ly_ban_quanao\Quan_ly_ban_quanao\obj\Debug\Quan_ly_ban_quanao.Them_nv.resources

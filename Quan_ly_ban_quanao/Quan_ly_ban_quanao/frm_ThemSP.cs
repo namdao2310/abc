@@ -67,6 +67,7 @@ namespace Quan_ly_ban_quanao
             cb_ncc.SelectedIndex = 0;
             txt_sl.Clear();
             cb_mua.SelectedIndex = 0;
+            pic_sp2.Image = null;
         }
         private void LoadNhaCungCapIntoComboBox()
         {
@@ -105,6 +106,7 @@ namespace Quan_ly_ban_quanao
                     else
                     {
                         MessageBox.Show("Chưa có ảnh sản phẩm","Lỗi",MessageBoxButtons.OK,MessageBoxIcon.Error);
+                        return;
                     }
 
                     try

@@ -21,7 +21,7 @@ namespace Quan_ly_ban_quanao
         {
             Frm_QLsanpham frm_QLsanpham = new Frm_QLsanpham();
             frm_QLsanpham.MdiParent = this;
-            frm_QLsanpham.Width = 920;               // Đặt chiều rộng Form con
+            frm_QLsanpham.Width = 820;               // Đặt chiều rộng Form con
             frm_QLsanpham.Height = 600;
             frm_QLsanpham.Show();
         }
@@ -57,6 +57,13 @@ namespace Quan_ly_ban_quanao
             HoaDon_Nhap hoaDon_Nhap = new HoaDon_Nhap();
             hoaDon_Nhap.MdiParent = this;
             hoaDon_Nhap.Show();
+        }
+
+        private void quảnLýNhânViênToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Frm_NhanVien frm_NhanVien = new Frm_NhanVien();
+            frm_NhanVien.MdiParent = this;
+            frm_NhanVien.Show();
         }
     }
 }
