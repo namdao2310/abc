@@ -114,6 +114,7 @@
             this.thốngKêBáoCáoToolStripMenuItem.Name = "thốngKêBáoCáoToolStripMenuItem";
             this.thốngKêBáoCáoToolStripMenuItem.Size = new System.Drawing.Size(267, 44);
             this.thốngKêBáoCáoToolStripMenuItem.Text = "Thống kê - báo cáo";
+            this.thốngKêBáoCáoToolStripMenuItem.Click += new System.EventHandler(this.thốngKêBáoCáoToolStripMenuItem_Click);
             // 
             // thoátToolStripMenuItem
             // 

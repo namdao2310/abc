@@ -65,5 +65,12 @@ namespace Quan_ly_ban_quanao
             frm_NhanVien.MdiParent = this;
             frm_NhanVien.Show();
         }
+
+        private void thốngKêBáoCáoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Baocao baocao = new Baocao();
+            baocao.MdiParent = this;
+            baocao.Show();
+        }
     }
 }
